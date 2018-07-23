@@ -4,7 +4,8 @@ def prime?(num)
   array.each do |i|
     if num % i == 0
       return false
-    else return true
+    else
+      return true
     end
   end
 end
