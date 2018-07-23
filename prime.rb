@@ -1,10 +1,7 @@
 # Add  code here!
 def prime?(num)
-  for d in 2..(num - 1)
-    if (n % d) == 0
-      return true
-    else
-      return false
-    end
-  end
+  arr =* (-1000000..1000000)
+  arr.each do |i|
+    
+
 end
