@@ -2,7 +2,7 @@
 def prime?(num)
   arr =* (-100..400000)
   arr.each do |i|
-    if num % i == 0
+    if num % i == 0 || -1
       return false
     else
       return true
